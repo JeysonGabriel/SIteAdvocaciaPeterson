@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#div{
+    display: inline-block;
+}
+
+#home1{
+    width: 50%;
+        height: auto;
+    float: left;
+
+
+}
+#home2{
+    width: 50%;
+    height: auto;
+    float: right;
+
+    
+}
+#area{
+    font-size: 30px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#divAreas{
+    background-color: rgb(231, 211, 173);
+    display: inline-block;
+}
+#divPG{
+    width: 50%;
+    height: auto;
+    float: left;
+
+}
+#divPG p{
+    color:rgb(65, 60, 60);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 50px;
+}
+#divIMG{
+    width: 50%;
+    height: auto;
+    float: right;
+
+
+}
+#divSobre{
+    font-size: 30px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.content p{
+    font-size: 25px;
+
+}
+.box{
+    background-color: rgb(231, 211, 173);
+}
+#contato{
+    font-size: 30px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#contato{
+    width: 100%;
+    height: auto;
+}
+#divcontato{
+    padding: 20px;
+}
+#gmail{
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#telefone{
+    margin-right: 30%;
+    width: 150px;
+    height: 150px;
+    float: right;
+
+}
+#telefone p{
+    text-align: center;
+}
+#gmail p{
+    text-align: center;
+}
+
+
+
+
+
+ 
+@media (max-width:800px){
+    #home1{
+        width: 100%;
+    }
+    #home2{
+        width: 100%;
+    }
+    #divPG{
+        width: 100%;
+    }
+    #divPG p{
+        font-size: 20px;
+    }
+    #divIMG{
+        width: 100%;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    #telefone{
+        margin-right: 10%;
+        width: 100px;
+        height: 100px;
+    }
+    #gmail{
+        margin-left: 10%;
+        width: 100px;
+        height: 100px;
+    }
+}

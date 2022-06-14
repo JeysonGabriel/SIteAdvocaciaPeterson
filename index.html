@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peterson Macedo</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="bulma.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!---start navbar-->
+  <nav class="navbar is-fixed-top is-dark">
+    <div class="container">
+      <div class="navbar-brand">
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="#div" class="navbar-item">Home</a>
+          <a href="#area" class="navbar-item">Área de atuação</a>
+          <a href="#divSobre" class="navbar-item">Sobre</a>
+          <a href="#contato" class="navbar-item">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <!---end navbar-->
+
+  <!--IMAGENS ''''HOME'''-->
+  <div id="div">
+    <div id="home1">
+      <img src="home1.jpg" alt="">
+    </div>
+    <div id="home2">
+      <img src="home2.jpg" alt="">
+    </div>
+  </div>
+
+  <!---   AREAS DE ATUAÇÃO   --->
+  <div id="area">
+    <strong>
+      Área de atuação<br>
+    </strong>
+  </div>
+  <div id="divAreas">
+    <div id="divPG">
+      <p>
+        Sou especialista em Previdenciário, Requerimento e Revisão de Benefícios, todas as espécies de Aposentadorias,
+        Planejamento Previdenciário e demais assuntos que englobam a Previdência Social.
+      </p>
+    </div>
+    <div id="divIMG">
+      <img src="previdencia.jpg" alt="Imagem previdência">
+    </div>
+
+  </div>
+
+  <!---    SOBRE    -->
+  <div id="divSobre"><strong>Sobre</strong></div>
+  <div class="container">
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="vagabundo.jpg" alt="Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Peterson Macdedo Assumpção</strong> <a href="https://www.instagram.com/peter_mcd_/"><small>@peter_mcd_</small></a>
+              <br>
+              Meu nome é Peterson Macedo de Assumpção, mais conhecido como "Peter", tenho 22 anos de idade e sou
+              bacharel em Direito desde o ano de 2020, trabalho única e exclusivamente na área administrativa da
+              Previdência Social, na qual obtive maior sucesso e realizações.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <!---   CONTATOS   --->
+  <div id="contato"><strong>Contato</strong></div>
+  <div id="divcontato">   
+      <a href="https://wa.me/5547992443319"><div id="telefone"><img src="cell.png" alt=""><br><p>(47) 9244-3319</p></div></a>
+    <a href="mailto:peterson.cmz.advocacia@gmail.com">
+      <div id="gmail"><img src="gmail.png" alt=""><br><p>Gmail</p></div>
+    </a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function () {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+  </script>
+</body>
+
+
+</html>
